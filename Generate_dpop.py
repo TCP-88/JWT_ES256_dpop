@@ -63,15 +63,8 @@ private_key_pem = """
 -----END EC PRIVATE KEY-----
 """
 
-public_key_pem = """
------BEGIN PUBLIC KEY-----
-
------END PUBLIC KEY-----
-"""
-
 ephemeral_key_pair = {
     "privateKey": private_key_pem,
-    "publicKey": public_key_pem,
 }
 
 url = "https://example.com"
